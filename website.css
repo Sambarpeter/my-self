@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap');
+
+:root {
+  --body-font: 'Inter', sans-serif;
+  --heading-font: 'Poppins', sans-serif;
+}
+
+
+ *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #0a0f0d;
+    color: white;
+    background-image: url('/home/kali/Documents/website/WhatsApp Image 2026-05-04 at 17.48.48.jpeg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  } 
+  /* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #1f2a26;
+  }
+  
+  .logo {
+    color: #00ff9f;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ccc;
+  }
+  
+  nav a:hover {
+    color: #00ff9f;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: 1px solid #00ff9f;
+    background: transparent;
+    color: #00ff9f;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #00ff9f;
+    color: black;
+  }
+  
+  /* HERO SECTION */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+  }
+  
+  .hero-text h1 {
+    font-size: 60px;
+    margin: 10px 0;
+  }
+  
+  .hero-text h2 {
+    font-weight: normal;
+  }
+  
+  .hero-text span {
+    color: #00ff9f;
+  }
+  
+  .desc {
+    margin: 20px 0;
+    color: #aaa;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    float: right;
+  }
+  
+  .primary {
+    background: #00ff9f;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  .secondary {
+    background: transparent;
+  }
+  .topic{
+    float:left; 
+    font-family: var(--body-font);
+    font-size: 17px;
+    line-height: 1.8;
+    color: #f4f7ff;
+
+  }
+  aside{
+    width: 30%; 
+  }
+  /* CARDS */
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  
+  .card {
+    background: #111816;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #1f2a26;
+  }
+  
+  .card h3 {
+    color: #00ff9f;
+    margin-bottom: 10px;
+  } 
+  .footer {
+    color: #ffffff;
+    padding: 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #00c2ff;
+}
+.social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.fa-brands.fa-facebook.fa-3x{
+  color: #1055eb;
+}
+.fa-brands.fa-x-twitter.fa-3x{
+  color: #0a0f0d;
+}
+.social :hover {
+    color: #00c2ff;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    font-size: 14px;
+}
